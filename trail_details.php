@@ -51,7 +51,7 @@ if ($result->num_rows == 0) {
 $trail = $result->fetch_assoc();
 
 $weather_data = null;
-$weather_api_key = "56d18c25f877fa6146d18e4e648698c9";
+$weather_api_key = getenv('OPENWEATHER_API_KEY') ?: '';
 
 if (!empty($trail['location_coords'])) {
     $coords = explode(',', $trail['location_coords']);
