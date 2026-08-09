@@ -19,6 +19,7 @@ TrailFinder is a full-stack hiking-trail discovery platform built with PHP and M
 | Trail Details | Saved Trails |
 | --- | --- |
 | ![Trail details](trail-details.png) | ![Saved trails](saved-trails.png) |
+
 ## Technologies
 
 - PHP
